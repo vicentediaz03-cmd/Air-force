@@ -21,20 +21,20 @@
       padding: 0;
     }
     header {
-      padding: 40px 0 20px 0;
+      padding: 20px 10px;
       text-align: center;
     }
     h1 {
       font-weight: 700;
-      font-size: 2.5em;
+      font-size: 1.8em;
       margin: 0;
-      letter-spacing: 1px;
     }
     .buscador {
       display: block;
-      margin: 30px auto 40px auto;
-      padding: 12px 18px;
-      width: 320px;
+      margin: 20px auto;
+      padding: 12px;
+      width: 90%;
+      max-width: 400px;
       border-radius: 6px;
       border: 1px solid var(--border);
       font-size: 1em;
@@ -42,157 +42,120 @@
       box-shadow: var(--shadow);
     }
     main {
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 0 20px;
+      padding: 0 10px;
     }
     .avion {
       background: var(--card-bg);
       border-radius: 12px;
       box-shadow: var(--shadow);
       display: flex;
-      flex-wrap: wrap;
-      align-items: flex-start;
-      gap: 24px;
-      margin-bottom: 38px;
-      padding: 20px 28px;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 28px;
+      padding: 16px;
       border: 1px solid var(--border);
-      transition: box-shadow 0.2s, transform 0.2s;
-    }
-    .avion:hover {
-      box-shadow: 0 6px 24px rgba(0,0,0,0.13);
-      transform: translateY(-4px) scale(1.01);
     }
     .galeria {
       position: relative;
-      width: 340px;
-      min-width: 220px;
+      width: 100%;
+      max-width: 500px;
       display: flex;
-      flex-direction: column;
       align-items: center;
       justify-content: center;
-      gap: 12px;
     }
     .galeria img[data-galeria] {
-      width: 320px;
-      height: 230px;
-      object-fit: cover;
-      border-radius: 6px;
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
       box-shadow: var(--shadow);
-      background: #ffffff;
-      transition: transform 0.3s;
       cursor: pointer;
-      display: block;
-    }
-    .galeria img[data-galeria]:hover {
-      transform: scale(1.04);
     }
     .galeria .flecha {
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
-      background: #fff;
+      background: rgba(255,255,255,0.8);
       border: none;
       color: var(--primary);
-      font-size: 2em;
+      font-size: 1.6em;
       cursor: pointer;
       border-radius: 50%;
-      width: 38px;
-      height: 38px;
+      width: 36px;
+      height: 36px;
       display: flex;
       align-items: center;
       justify-content: center;
       z-index: 2;
-      transition: background 0.2s;
-      box-shadow: var(--shadow);
     }
-    .galeria .flecha.izq { left: 8px; }
-    .galeria .flecha.der { right: 8px; }
+    .galeria .flecha.izq { left: 10px; }
+    .galeria .flecha.der { right: 10px; }
     .logo-fabricante {
-      width: 100px;
+      margin-top: 12px;
+      width: 80px;
       height: auto;
-      object-fit: contain;
-      border-radius: 8px;
-      background: #fff;
-      box-shadow: var(--shadow);
+      border-radius: 6px;
       border: 1px solid var(--border);
+      box-shadow: var(--shadow);
       cursor: pointer;
     }
     .avion-info {
-      flex: 1;
-      min-width: 220px;
+      width: 100%;
+      margin-top: 14px;
     }
     .avion-info h2 {
-      font-size: 1.4em;
-      margin: 0 0 10px 0;
+      font-size: 1.3em;
+      margin: 0 0 8px 0;
       font-weight: 600;
+      text-align: center;
     }
     .avion-info p {
-      margin: 7px 0;
-      font-size: 1.05em;
+      margin: 6px 0;
+      font-size: 1em;
     }
     .mostrar-btn {
+      display: block;
+      margin: 12px auto 0 auto;
       background: var(--primary);
       color: #fff;
       border: none;
-      padding: 7px 16px;
+      padding: 10px 20px;
       border-radius: 6px;
       cursor: pointer;
-      margin-top: 12px;
       font-size: 1em;
       box-shadow: var(--shadow);
-      transition: background 0.2s;
     }
     .mostrar-btn:hover {
-      background: #03131f;
+      background: #005fa3;
     }
     .detalles {
       display: none;
       margin-top: 12px;
-      font-size: 0.98em;
+      font-size: 0.95em;
       color: #444;
-      animation: fadeIn 0.5s;
       background: #f3f3f3;
       border-radius: 8px;
-      padding: 12px 18px;
+      padding: 12px;
     }
     .video-container {
       text-align: center;
-      margin: -20px auto 40px auto;
+      margin: 10px auto 30px auto;
       background: var(--card-bg);
       border-radius: 12px;
       box-shadow: var(--shadow);
-      padding: 32px 0 18px 0;
-      max-width: 900px;
-    }
-    .video-container h2 {
-      font-size: 1.3em;
-      font-weight: 500;
-      margin-bottom: 18px;
+      padding: 18px;
+      max-width: 100%;
     }
     video {
-      width: 95%;
-      max-width: 830px;
+      width: 100%;
+      max-width: 500px;
       border-radius: 10px;
       box-shadow: var(--shadow);
-      background: #eeeeee;
     }
     footer {
       text-align: center;
-      margin: 60px 0 20px 0;
+      margin: 30px 0 20px 0;
       color: #666;
-      font-size: 1em;
-      letter-spacing: 1px;
-    }
-    @media (max-width: 900px) {
-      main { padding: 0 10px; }
-      .avion { flex-direction: column; gap: 18px; padding: 22px 10px;}
-      .galeria { width: 100%; }
-      .galeria img[data-galeria] { width: 98%; max-width: 340px; height: auto;}
-    }
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(10px);}
-      to { opacity: 1; transform: translateY(0);}
+      font-size: 0.9em;
     }
     .oculto { display: none !important; }
   </style>
@@ -201,7 +164,6 @@
       const detalles = document.getElementById(id);
       if (detalles.style.display === 'none' || detalles.style.display === '') {
         detalles.style.display = 'block';
-        detalles.style.animation = 'fadeIn 0.5s';
       } else {
         detalles.style.display = 'none';
       }
@@ -240,42 +202,39 @@
       modal.style.justifyContent = 'center';
       modal.style.zIndex = '9999';
       modal.onclick = () => document.body.removeChild(modal);
-       const img = document.createElement('img');
-            img.src = src;
-            img.style.maxWidth = '80vw';
-            img.style.maxHeight = '80vh';
-            img.style.borderRadius = '14px';
-            modal.appendChild(img);
-
-            document.body.appendChild(modal);
-        }
-  
-        window.addEventListener('DOMContentLoaded', () => {
-            document.querySelectorAll('.galeria').forEach(galeria => {
-                const imgs = galeria.querySelectorAll('img[data-galeria]');
-                imgs.forEach((img, i) => {
-                    if (i !== 0) img.classList.add('oculto');
-                    else img.classList.remove('oculto');
-                });
-            });
+      const img = document.createElement('img');
+      img.src = src;
+      img.style.maxWidth = '90vw';
+      img.style.maxHeight = '90vh';
+      img.style.borderRadius = '10px';
+      modal.appendChild(img);
+      document.body.appendChild(modal);
+    }
+    window.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('.galeria').forEach(galeria => {
+        const imgs = galeria.querySelectorAll('img[data-galeria]');
+        imgs.forEach((img, i) => {
+          if (i !== 0) img.classList.add('oculto');
+          else img.classList.remove('oculto');
         });
-    </script>
+      });
+    });
   </script>
 </head>
 <body>
   <header>
-    <header>
-        <h1>FIGHTERS AIR FORCE</h1>
-        <input class="buscador" id="buscador" type="text" placeholder="Buscar avión..." oninput="filtrarAviones()">
-    </header>
-    <div class="video-container">>
-        <video width="830" controls>
-            <source src="ssstik.io_1757720937426.mp4" type="video/mp4">
-            Tu navegador no soporta el video.
-        </video>
-    </div>
-    <main>
-        <div class="avion">
+    <h1>FIGHTERS AIR FORCE</h1>
+    <input class="buscador" id="buscador" type="text" placeholder="Buscar avión..." oninput="filtrarAviones()">
+  </header>
+
+  <div class="video-container">
+    <video controls>
+      <source src="ssstik.io_1757720937426.mp4" type="video/mp4">
+      Tu navegador no soporta el video.
+    </video>
+  </div>
+
+  <div class="avion">
             <div class="galeria" id="galeria-su57">
                 <button class="flecha izq" onclick="cambiarImagen('galeria-su57', -1)">&lt;</button>
                 <img src="Su-57-Felon-Stealth-Fighter-1.jpg" alt="Su-57 Felon" data-galeria onclick="mostrarImagenGrande(this.src)">
@@ -384,8 +343,8 @@
             </div>
         </div>
     </main>
-    <footer>
-        © 2025 | Página creada por Vicente | Proyecto Universidad
-    </footer>
+  <footer>
+    © 2025 | Página creada por Vicente | Proyecto Universidad
+  </footer>
 </body>
 </html>
