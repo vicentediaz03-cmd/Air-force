@@ -226,120 +226,119 @@
   <div class="video-container">
     <video controls>
       <source src="ssstik.io_1757720937426.mp4" type="video/mp4">
-      Tu navegador no soporta el video.
     </video>
   </div>
 
   <main>
-    <!-- SU-57 -->
     <div class="avion">
-      <div class="galeria" id="galeria-su57">
-        <button class="flecha izq" onclick="cambiarImagen('galeria-su57', -1)">&lt;</button>
-        <img src="Su-57-Felon-Stealth-Fighter-1.jpg" alt="Su-57 Felon" data-galeria onclick="mostrarImagenGrande(this.src)">
-        <img src="Su-57.jpg" alt="Su-57 Felon 2" data-galeria class="oculto" onclick="mostrarImagenGrande(this.src)">
-        <img src="Flag_of_Russia.svg.png" alt="Logo Sukhoi" class="logo-fabricante" onclick="mostrarImagenGrande(this.src)">
-        <button class="flecha der" onclick="cambiarImagen('galeria-su57', 1)">&gt;</button>
-      </div>
-      <div class="avion-info">
-        <h2>Su-57 Felon</h2>
-        <p><strong>Tipo:</strong> Caza furtivo de quinta generación</p>
-        <p><strong>Fabricante:</strong> Sukhoi (Rusia)</p>
-        <p><strong>Velocidad Máxima:</strong> Mach 2.0</p>
-        <p><strong>Armamento:</strong> Misiles aire-aire, aire-tierra, cañón interno</p>
-        <p><strong>Descripción:</strong> El Su-57 es el primer caza furtivo ruso, diseñado para competir con los cazas occidentales. Incorpora tecnología stealth, supercrucero y alta maniobrabilidad.</p>
-        <button class="mostrar-btn" onclick="toggleDetalles('detalles-su57')">Mostrar detalles</button>
-        <div class="detalles" id="detalles-su57">
-          <ul>
-            <li>Primer vuelo: 2010</li>
-            <li>Tripulación: 1</li>
-            <li>Radio de combate: 1,500 km</li>
-            <li>Motor: Saturn Izdeliye 30</li>
-            <li><a href="https://es.wikipedia.org/wiki/Sukhoi_Su-57" target="_blank">Wikipedia</a></li>
-          </ul>
-        </div>
-      </div>
+  <div class="avion-info">
+    <h2>Su-57 Felon</h2>
+    <p><strong>Tipo:</strong> Caza furtivo de quinta generación</p>
+    <p><strong>Fabricante:</strong> Sukhoi (Rusia)</p>
+    <p><strong>Velocidad Máxima:</strong> Mach 2.0</p>
+    <p><strong>Armamento:</strong> Misiles aire-aire, aire-tierra, cañón interno</p>
+    <p><strong>Descripción:</strong> El Su-57 es el primer caza furtivo ruso, diseñado para competir con los cazas occidentales. Incorpora tecnología stealth, supercrucero y alta maniobrabilidad.</p>
+    <button class="mostrar-btn" onclick="toggleDetalles('detalles-su57')">Mostrar detalles</button>
+    <div class="detalles" id="detalles-su57">
+      <ul>
+        <li>Primer vuelo: 2010</li>
+        <li>Tripulación: 1</li>
+        <li>Radio de combate: 1,500 km</li>
+        <li>Motor: Saturn Izdeliye 30</li>
+        <li><a href="https://es.wikipedia.org/wiki/Sukhoi_Su-57" target="_blank">Wikipedia</a></li>
+      </ul>
     </div>
+  </div>
+
+  <div class="galeria" id="galeria-su57">
+    <button class="flecha izq" onclick="cambiarImagen('galeria-su57', -1)">&lt;</button>
+    <img src="Su-57-Felon-Stealth-Fighter-1.jpg" alt="Su-57 Felon" data-galeria onclick="mostrarImagenGrande(this.src)">
+    <img src="Su-57.jpg" alt="Su-57 Felon 2" data-galeria class="oculto" onclick="mostrarImagenGrande(this.src)">
+    <img src="Flag_of_Russia.svg.png" alt="Logo Sukhoi" class="logo-fabricante" onclick="mostrarImagenGrande(this.src)">
+    <button class="flecha der" onclick="cambiarImagen('galeria-su57', 1)">&gt;</button>
+  </div>
+</div>
+   <div class="avion">
+  <div class="avion-info">
+    <h2>F-22 Raptor</h2>
+    <p><strong>Tipo:</strong> Caza furtivo de superioridad aérea</p>
+    <p><strong>Fabricante:</strong> Lockheed Martin (EE. UU.)</p>
+    <p><strong>Velocidad Máxima:</strong> Mach 2.25</p>
+    <p><strong>Armamento:</strong> Misiles aire-aire, bombas guiadas, cañón M61A2</p>
+    <p><strong>Descripción:</strong> El F-22 es considerado uno de los cazas más avanzados del mundo, con capacidades stealth, supercrucero y sistemas electrónicos de última generación.</p>
+    <button class="mostrar-btn" onclick="toggleDetalles('detalles-f22')">Mostrar detalles</button>
+    <div class="detalles" id="detalles-f22">
+      <ul>
+        <li>Primer vuelo: 1997</li>
+        <li>Tripulación: 1</li>
+        <li>Radio de combate: 760 km</li>
+        <li>Motor: Pratt & Whitney F119</li>
+        <li><a href="https://es.wikipedia.org/wiki/Lockheed_Martin_F-22_Raptor" target="_blank">Wikipedia</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="galeria" id="galeria-f22">
+    <button class="flecha izq" onclick="cambiarImagen('galeria-f22', -1)">&lt;</button>
+    <img src="EE.UU-despliega-sus-poderosos-aviones-de-combate-F-22-Raptor-en-Oriente-Medio-ante-tension-con-Rusia.jpg" alt="F-22 Raptor" data-galeria onclick="mostrarImagenGrande(this.src)">
+    <img src="avion.jpg" alt="F-22 Raptor 2" data-galeria class="oculto" onclick="mostrarImagenGrande(this.src)">
+    <img src="Lockheed_Martin-Logo.wine.png" alt="Logo Lockheed Martin" class="logo-fabricante" onclick="mostrarImagenGrande(this.src)">
+    <button class="flecha der" onclick="cambiarImagen('galeria-f22', 1)">&gt;</button>
+  </div>
+</div>
     <div class="avion">
-      <div class="galeria" id="galeria-f22">
-        <button class="flecha izq" onclick="cambiarImagen('galeria-f22', -1)">&lt;</button>
-        <img src="EE.UU-despliega-sus-poderosos-aviones-de-combate-F-22-Raptor-en-Oriente-Medio-ante-tension-con-Rusia.jpg" alt="F-22 Raptor" data-galeria onclick="mostrarImagenGrande(this.src)">
-        <img src="avion.jpg" alt="F-22 Raptor 2" data-galeria class="oculto" onclick="mostrarImagenGrande(this.src)">
-        <img src="Lockheed_Martin-Logo.wine.png" alt="Logo Lockheed Martin" class="logo-fabricante" onclick="mostrarImagenGrande(this.src)">
-        <button class="flecha der" onclick="cambiarImagen('galeria-f22', 1)">&gt;</button>
-      </div>
-      <div class="avion-info">
-        <h2>F-22 Raptor</h2>
-        <p><strong>Tipo:</strong> Caza furtivo de superioridad aérea</p>
-        <p><strong>Fabricante:</strong> Lockheed Martin (EE. UU.)</p>
-        <p><strong>Velocidad Máxima:</strong> Mach 2.25</p>
-        <p><strong>Armamento:</strong> Misiles aire-aire, bombas guiadas, cañón M61A2</p>
-        <p><strong>Descripción:</strong> El F-22 es considerado uno de los cazas más avanzados del mundo, con capacidades stealth, supercrucero y sistemas electrónicos de última generación.</p>
-        <button class="mostrar-btn" onclick="toggleDetalles('detalles-f22')">Mostrar detalles</button>
-        <div class="detalles" id="detalles-f22">
-          <ul>
-            <li>Primer vuelo: 1997</li>
-            <li>Tripulación: 1</li>
-            <li>Radio de combate: 760 km</li>
-            <li>Motor: Pratt & Whitney F119</li>
-            <li><a href="https://es.wikipedia.org/wiki/Lockheed_Martin_F-22_Raptor" target="_blank">Wikipedia</a></li>
-          </ul>
-        </div>
-      </div>
+  <div class="avion-info">
+    <h2>Chengdu J-20</h2>
+    <p><strong>Tipo:</strong> Caza furtivo de largo alcance</p>
+    <p><strong>Fabricante:</strong> Chengdu Aerospace Corporation (China)</p>
+    <p><strong>Velocidad Máxima:</strong> Mach 2.0</p>
+    <p><strong>Armamento:</strong> Misiles aire-aire, bombas guiadas</p>
+    <p><strong>Descripción:</strong> El J-20 es el primer caza furtivo chino, diseñado para misiones de penetración profunda y superioridad aérea, con tecnología stealth y avanzada aviónica.</p>
+    <button class="mostrar-btn" onclick="toggleDetalles('detalles-j20')">Mostrar detalles</button>
+    <div class="detalles" id="detalles-j20">
+      <ul>
+        <li>Primer vuelo: 2011</li>
+        <li>Tripulación: 1</li>
+        <li>Radio de combate: 1,100 km</li>
+        <li>Motor: WS-10B</li>
+        <li><a href="https://es.wikipedia.org/wiki/Chengdu_J-20" target="_blank">Wikipedia</a></li>
+      </ul>
     </div>
+  </div>
+  <div class="galeria" id="galeria-j20">
+    <button class="flecha izq" onclick="cambiarImagen('galeria-j20', -1)">&lt;</button>
+    <img src="J-20-new.jpg" alt="Chengdu J-20" data-galeria onclick="mostrarImagenGrande(this.src)">
+    <img src="j-20-4.webp" alt="Chengdu J-20 2" data-galeria class="oculto" onclick="mostrarImagenGrande(this.src)">
+    <img src="logo-chengdu.jpg" alt="Logo Chengdu" class="logo-fabricante" onclick="mostrarImagenGrande(this.src)">
+    <button class="flecha der" onclick="cambiarImagen('galeria-j20', 1)">&gt;</button>
+  </div>
+</div>
     <div class="avion">
-      <div class="galeria" id="galeria-j20">
-        <button class="flecha izq" onclick="cambiarImagen('galeria-j20', -1)">&lt;</button>
-        <img src="J-20-new.jpg" alt="Chengdu J-20" data-galeria onclick="mostrarImagenGrande(this.src)">
-        <img src="j-20-4.webp" alt="Chengdu J-20 2" data-galeria class="oculto" onclick="mostrarImagenGrande(this.src)">
-        <img src="logo-chengdu.jpg" alt="Logo Chengdu" class="logo-fabricante" onclick="mostrarImagenGrande(this.src)">
-        <button class="flecha der" onclick="cambiarImagen('galeria-j20', 1)">&gt;</button>
-      </div>
-      <div class="avion-info">
-        <h2>Chengdu J-20</h2>
-        <p><strong>Tipo:</strong> Caza furtivo de largo alcance</p>
-        <p><strong>Fabricante:</strong> Chengdu Aerospace Corporation (China)</p>
-        <p><strong>Velocidad Máxima:</strong> Mach 2.0</p>
-        <p><strong>Armamento:</strong> Misiles aire-aire, bombas guiadas</p>
-        <p><strong>Descripción:</strong> El J-20 es el primer caza furtivo chino, diseñado para misiones de penetración profunda y superioridad aérea, con tecnología stealth y avanzada aviónica.</p>
-        <button class="mostrar-btn" onclick="toggleDetalles('detalles-j20')">Mostrar detalles</button>
-        <div class="detalles" id="detalles-j20">
-          <ul>
-            <li>Primer vuelo: 2011</li>
-            <li>Tripulación: 1</li>
-            <li>Radio de combate: 1,100 km</li>
-            <li>Motor: WS-10B</li>
-            <li><a href="https://es.wikipedia.org/wiki/Chengdu_J-20" target="_blank">Wikipedia</a></li>
-          </ul>
-        </div>
-      </div>
+  <div class="avion-info">
+    <h2>F-15 Eagle / F-15EX</h2>
+    <p><strong>Tipo:</strong> Caza de superioridad aérea / multirrol</p>
+    <p><strong>Fabricante:</strong> McDonnell Douglas / Boeing (EE. UU.)</p>
+    <p><strong>Velocidad Máxima:</strong> Mach 2.5</p>
+    <p><strong>Armamento:</strong> Misiles aire-aire, bombas, cañón M61 Vulcan</p>
+    <p><strong>Descripción:</strong> El F-15 es uno de los cazas más exitosos de la historia, con una tasa de victorias excepcional y versiones modernizadas como el F-15EX, que incorpora aviónica avanzada, radar AESA, arquitectura digital abierta y capacidad para transportar hasta 22 misiles aire-aire.</p>
+    <button class="mostrar-btn" onclick="toggleDetalles('detalles-f15')">Mostrar detalles</button>
+    <div class="detalles" id="detalles-f15">
+      <ul>
+        <li>Primer vuelo: 1972 (F-15 Eagle) / 2021 (F-15EX)</li>
+        <li>Tripulación: 1 o 2</li>
+        <li>Radio de combate: 1,967 km</li>
+        <li>Motor: Pratt & Whitney F100 / F110 (según variante)</li>
+        <li><a href="https://es.wikipedia.org/wiki/Boeing_F-15EX_Eagle_II" target="_blank">Wikipedia</a></li>
+      </ul>
     </div>
-    <div class="avion">
-      <div class="galeria" id="galeria-f15">
-        <button class="flecha izq" onclick="cambiarImagen('galeria-f15', -1)">&lt;</button>
-        <img src="images.jpeg" alt="F-15 Eagle / F-15EX" data-galeria onclick="mostrarImagenGrande(this.src)">
-        <img src="images (1).jpeg" alt="F-15 Eagle 2" data-galeria class="oculto" onclick="mostrarImagenGrande(this.src)">
-        <img src="McDonnell_Douglas.svg.png" alt="Logo Boeing" class="logo-fabricante" onclick="mostrarImagenGrande(this.src)">
-        <button class="flecha der" onclick="cambiarImagen('galeria-f15', 1)">&gt;</button>
-      </div>
-      <div class="avion-info">
-        <h2>F-15 Eagle / F-15EX</h2>
-        <p><strong>Tipo:</strong> Caza de superioridad aérea / multirrol</p>
-        <p><strong>Fabricante:</strong> McDonnell Douglas / Boeing (EE. UU.)</p>
-        <p><strong>Velocidad Máxima:</strong> Mach 2.5</p>
-        <p><strong>Armamento:</strong> Misiles aire-aire, bombas, cañón M61 Vulcan</p>
-        <p><strong>Descripción:</strong> El F-15 es uno de los cazas más exitosos de la historia, con una tasa de victorias excepcional y versiones modernizadas como el F-15EX.</p>
-        <button class="mostrar-btn" onclick="toggleDetalles('detalles-f15')">Mostrar detalles</button>
-        <div class="detalles" id="detalles-f15">
-          <ul>
-            <li>Primer vuelo: 1972</li>
-            <li>Tripulación: 1 o 2</li>
-            <li>Radio de combate: 1,967 km</li>
-            <li>Motor: Pratt & Whitney F100</li>
-            <li><a href="https://es.wikipedia.org/wiki/McDonnell_Douglas_F-15_Eagle" target="_blank">Wikipedia</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
+  </div>
+  <div class="galeria" id="galeria-f15">
+    <button class="flecha izq" onclick="cambiarImagen('galeria-f15', -1)">&lt;</button>
+    <img src="images.jpeg" alt="F-15 Eagle / F-15EX" data-galeria onclick="mostrarImagenGrande(this.src)">
+    <img src="images (1).jpeg" alt="F-15 Eagle 2" data-galeria class="oculto" onclick="mostrarImagenGrande(this.src)">
+    <img src="McDonnell_Douglas.svg.png" alt="Logo Boeing" class="logo-fabricante" onclick="mostrarImagenGrande(this.src)">
+    <button class="flecha der" onclick="cambiarImagen('galeria-f15', 1)">&gt;</button>
+  </div>
+</div>
   </main>
 
   <footer>
