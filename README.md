@@ -342,7 +342,7 @@
   </main>
 
   <footer>
-    © 2025 | Página creada por Vicente | Proyecto Universidad
+    © 2025 | Página creada por vicoske
   </footer>
 </body>
 </html>
